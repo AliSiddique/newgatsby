@@ -14,7 +14,7 @@ function Index() {
 
   return (
     <main>
-      <h1>Gatsby + API Route</h1>
+      <h1>Ali is cool</h1>
       <h2>
         Deployed with{' '}
         <a
