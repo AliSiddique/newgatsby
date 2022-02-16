@@ -14,37 +14,21 @@ function Index() {
 
   return (
     <main>
-      <h1>Ali is cool</h1>
+      <h1>Ali's first Gatsby website</h1>
       <h2>
         Deployed with{' '}
         <a
-          href="https://vercel.com/docs"
+          href="https://alha.hashnode.dev"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Vercel
+          My Hashnode
         </a>
         !
       </h2>
-      <p>
-        <a
-          href="https://github.com/vercel/vercel/tree/main/examples/gatsby"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          This project
-        </a>{' '}
-        is a <a href="https://www.gatsbyjs.org/">Gatsby</a> app with two
-        directories, <code>/src</code> for static content and <code>/api</code>{' '}
-        which contains a serverless{' '}
-        <a href="https://nodejs.org/en/">Node.js</a> function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Node.js
-        </a>
-        .
-      </p>
+
       <br />
-      <h2>The date according to Node.js is:</h2>
+      <h2>The date is</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
